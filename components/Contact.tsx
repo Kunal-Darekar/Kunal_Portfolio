@@ -73,8 +73,8 @@ const Contact = () => {
         >
           <h2 className="text-4xl font-bold mb-4">Get in Touch</h2>
           <div className="w-20 h-1 bg-purple-600 mx-auto mb-6"></div>
-          <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-            Let's collaborate on your next project or discuss opportunities. I'm always excited to connect with fellow developers and potential clients.
+          <p className="text-lg text-gray-600 dark:text-gray-400 mb-8">
+            Let&apos;s collaborate on your next project or discuss opportunities. I&apos;m always excited to connect with fellow developers and potential clients.
           </p>
         </motion.div>
 

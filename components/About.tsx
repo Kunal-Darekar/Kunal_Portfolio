@@ -65,7 +65,7 @@ const About = () => {
               As a fresh graduate with a passion for software development, I bring enthusiasm, modern technical skills, and a strong foundation in computer science principles.
             </p>
             <p className="text-lg text-gray-600 dark:text-gray-300">
-              During my academic journey, I&apos;ve focused on building practical projects and gaining hands-on experience with current technologies used in the industry.
+              During my academic journey, I've focused on building practical projects and gaining hands-on experience with current technologies used in the industry.
             </p>
             <p className="text-lg text-gray-600 dark:text-gray-300">
               A passionate MERN stack developer with expertise in building full-stack web applications. I combine my problem-solving skills in Data Structures & Algorithms with practical development experience to create efficient, scalable solutions.

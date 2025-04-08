@@ -1,6 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 const Hero = () => {
   return (
@@ -51,12 +52,15 @@ const Hero = () => {
             <div className="aspect-square rounded-full bg-gradient-to-r from-purple-600 to-pink-600 opacity-20 absolute inset-0 blur-3xl" />
             
             {/* Profile image container */}
-            <div className="relative z-10 pt-8"> {/* Added pt-8 for top padding */}
-              <img
-                src="/images/profile.png"
-                alt="Kunal Darekar"
-                className="w-full aspect-square rounded-full object-cover border-4 border-purple-600/50"
-              />
+            <div className="relative z-10 pt-8">
+              <div className="relative w-full aspect-square">
+                <Image
+                  src="/images/profile.png"
+                  alt="Kunal Darekar"
+                  fill
+                  className="rounded-full object-cover border-4 border-purple-600/50"
+                />
+              </div>
             </div>
           </motion.div>
         </div>
