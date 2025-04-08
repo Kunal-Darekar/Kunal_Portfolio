@@ -7,9 +7,9 @@ import { FaGoogleDrive, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { TypeAnimation } from 'react-type-animation';
 
 const Hero = () => {
-  const GOOGLE_DRIVE_URL = "your-drive-link";
+  const GOOGLE_DRIVE_URL = "https://drive.google.com/file/d/16iZgbXAJExrgPZk830MPWcw7iQXtMQvF/view?usp=drive_link";
   const GITHUB_URL = "https://github.com/Kunal-Darekar";
-  const LINKEDIN_URL = "your-linkedin-profile";
+  const LINKEDIN_URL = "https://www.linkedin.com/in/kunal-darekar/";
 
   return (
     <section className="min-h-screen flex items-center justify-center section-padding">
