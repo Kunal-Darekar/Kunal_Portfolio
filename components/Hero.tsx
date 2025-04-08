@@ -55,10 +55,13 @@ const Hero = () => {
             <div className="relative z-10 pt-8">
               <div className="relative w-full aspect-square">
                 <Image
-                  src="/images/profile.png"
+                  src={process.env.NODE_ENV === 'production' 
+                    ? '/Kunal_Portfolio/images/profile.png' 
+                    : '/images/profile.png'
+                  }
                   alt="Profile"
                   width={600}
-                  height={400}
+                  height={600}
                   priority
                   className="rounded-full object-cover border-4 border-purple-600/50"
                 />
