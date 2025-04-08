@@ -42,13 +42,13 @@ const Contact = () => {
     {
       name: 'GitHub',
       icon: FaGithub,
-      url: 'https://github.com/yourusername',
+      url: 'https://github.com/Kunal-Darekar',
       color: 'hover:text-gray-900 dark:hover:text-white',
     },
     {
       name: 'LinkedIn',
       icon: FaLinkedin,
-      url: 'https://linkedin.com/in/yourusername',
+      url: 'https://www.linkedin.com/in/kunal-darekar/',
       color: 'hover:text-blue-700 dark:hover:text-blue-500',
     },
   ];
@@ -101,10 +101,10 @@ const Contact = () => {
                   <div>
                     <h4 className="font-medium">Email</h4>
                     <a 
-                      href="mailto:hello@example.com"
+                      href="mailto:kunaldarekar99@gmail.com"
                       className="text-gray-600 dark:text-gray-400 hover:text-purple-600 dark:hover:text-purple-400 transition-colors"
                     >
-                      hello@example.com
+                      kunaldarekar99@gmail.com
                     </a>
                   </div>
                 </div>
@@ -116,7 +116,7 @@ const Contact = () => {
                   <div>
                     <h4 className="font-medium">Location</h4>
                     <p className="text-gray-600 dark:text-gray-400">
-                      San Francisco, CA
+                     Pune , India
                     </p>
                   </div>
                 </div>
