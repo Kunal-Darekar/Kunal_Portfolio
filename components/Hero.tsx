@@ -56,8 +56,10 @@ const Hero = () => {
               <div className="relative w-full aspect-square">
                 <Image
                   src="/images/profile.png"
-                  alt="Kunal Darekar"
-                  fill
+                  alt="Profile"
+                  width={600}
+                  height={400}
+                  priority
                   className="rounded-full object-cover border-4 border-purple-600/50"
                 />
               </div>
