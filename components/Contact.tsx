@@ -26,19 +26,24 @@ const Contact = () => {
     setSubmitStatus('idle');
 
     try {
+      // Create template parameters
+      const templateParams = {
+        from_name: formData.name,
+        from_email: formData.email,
+        message: formData.message,
+        to_name: 'Kunal',
+        reply_to: formData.email,
+      };
+
+      // Send email using EmailJS
       const response = await emailjs.send(
         process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
         process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!,
-        {
-          from_name: formData.name,
-          from_email: formData.email,
-          message: formData.message,
-          to_name: 'Kunal',
-          reply_to: formData.email,
-          submitted_date: new Date().toLocaleString(),
-        },
-        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
+        templateParams,
+        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!
       );
+
+      console.log('Email sent successfully:', response);
 
       if (response.status === 200) {
         setSubmitStatus('success');
